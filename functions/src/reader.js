@@ -1,4 +1,7 @@
 const axios = require('axios')
+const Firestore = require('@google-cloud/firestore');
+
+
 const categoriesURL = 'https://tienda.mercadona.es/api/categories/?lang=es&wh=mad1'
 const categoryURL = 'https://tienda.mercadona.es/api/categories/:categoryId/?lang=es&wh=mad1'
 
@@ -6,12 +9,17 @@ let categories = {}
 let secondLevelIds = []
 let products = []
 
+const db = new Firestore({
+  projectId: 'mercadona-scraper',
+  keyFilename: '../keys/mercadona-scraper-7d9ab92ec97c.json',
+});
+
 const fetchCategories = async () => {
     const response = await axios.get(categoriesURL)
     categories = response.data
 }
 
-const fetchProducts = async () => {        
+const fetchProducts = async () => {
     const responses = await Promise.all(
         secondLevelIds.map(id => {
             const url = categoryURL.replace(':categoryId', id)
@@ -31,10 +39,21 @@ const fetchProducts = async () => {
                     share_url: p.share_url,
                     thumbnail: p.thumbnail,
                 }))
-                return catProds.concat(newCatProds)                
+                return catProds.concat(newCatProds)
             }, [])
         return products.concat(newProducts)
-    }, [])    
+    }, [])
+
+    const chunks = chunkArray(products, 500)
+
+    chunks.forEach(chunk => {
+        const batch = db.batch()
+        chunk.forEach(product => {
+            const docRef = db.collection('products').doc(product.id)
+            batch.set(docRef, product, { merge: true })
+        })
+        batch.commit()
+    })
 }
 
 const extractSecondLevelIds = () => {
@@ -45,6 +64,19 @@ const extractSecondLevelIds = () => {
                 .filter(id => typeof id === 'number')
             return ids.concat(newIds)
         }, [])
+}
+
+const chunkArray = (myArray, chunk_size) => {
+    var index = 0;
+    var arrayLength = myArray.length;
+    var tempArray = [];
+    
+    for (index = 0; index < arrayLength; index += chunk_size) {
+        myChunk = myArray.slice(index, index+chunk_size);        
+        tempArray.push(myChunk);
+    }
+
+    return tempArray;
 }
 
 module.exports = {

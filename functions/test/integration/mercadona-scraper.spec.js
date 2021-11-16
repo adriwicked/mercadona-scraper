@@ -1,25 +1,25 @@
 
-const scraper = require('../../src/scraper')
+const reader = require('../../src/reader')
 
-describe('Mercadona scraper', () => {        
+describe('Mercadona reader', () => {        
     beforeAll(async () => {                
-        await scraper.fetchCategories()
+        await reader.fetchCategories()
     })
 
     it('gets first and second level categories', async () => {
-        const categories = scraper.getCategories()
+        const categories = reader.getCategories()
         expect(categories.count).toBe(categories.results.length)
     })
 
     it('extracts all second level category ids', () => {
-        scraper.extractSecondLevelIds()
-        const secondLevelIds = scraper.getSecondLevelIds()
+        reader.extractSecondLevelIds()
+        const secondLevelIds = reader.getSecondLevelIds()
         expect(secondLevelIds.length).not.toBe(0)
     })
 
-    it('gets all products', async () => {
-        await scraper.fetchProducts()
-        const products = scraper.getProducts()
-        expect(products.length).not.toBe(0)
-    })
+    // it('gets all products', async () => {
+    //     await reader.fetchProducts()
+    //     const products = reader.getProducts()
+    //     expect(products.length).not.toBe(0)
+    // })
 })
