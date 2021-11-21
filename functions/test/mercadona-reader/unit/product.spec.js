@@ -1,5 +1,5 @@
-const createFakeProduct = require('../mocks/fakeProduct')
-const createProduct = require('../../src/entities/product')
+const createFakeProduct = require('../mocks/fake-product')
+const createProduct = require('../../../src/mercadona-reader/domain/product')
 
 describe('Product', () => {
     it('must have an id', () => {
