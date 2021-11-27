@@ -7,7 +7,8 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "test": "jest --collectCoverage=false"
+    "unit_test": "jest 'test/mercadona-reader/unit' --collectCoverage=false",
+    "integration_test": "jest 'test/mercadona-reader/integration' --collectCoverage=false"
   },
   "engines": {
     "node": "14"
