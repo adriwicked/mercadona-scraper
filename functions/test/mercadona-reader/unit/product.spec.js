@@ -17,7 +17,7 @@ describe('Product', () => {
     it('must have a packaging', () => {
         const productInfo = createFakeProduct({ packaging: null })
         expect(() => createProduct(productInfo))
-            .toThrow('Product must have a packaging')
+            .not.toThrow('Product must have a packaging')
     })
 
     it('must have a price', () => {

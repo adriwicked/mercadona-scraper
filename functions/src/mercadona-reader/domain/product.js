@@ -7,8 +7,7 @@ module.exports = function createProduct({
     thumbnail
 } = {}) {
     if (!id) { throw new Error('Product must have an id') }
-    if (!name) { throw new Error('Product must have a name') }
-    if (!packaging) { throw new Error('Product must have a packaging') }
+    if (!name) { throw new Error('Product must have a name') }    
     if (!price) { throw new Error('Product must have a price') }
     if (!isValidURL(share_url)) { throw new Error('Product must have a valid share_url') }
     if (!isValidURL(thumbnail)) { throw new Error('Product must have a valid thumbnail') }    

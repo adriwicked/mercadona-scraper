@@ -27,18 +27,9 @@ describe('Local DB', () => {
         slug: "aceite-oliva-virgen-extra-hacendado-garrafa",
         share_url: "https://tienda.mercadona.es/product/4717/aceite-oliva-virgen-extra-hacendado-garrafa",
         thumbnail: "https://prod-mercadona.imgix.net/images/84dff1a1f7758de4eeec7379601d621a.jpg?fit=crop&h=300&w=300"
-    }]    
+    }]        
 
-    beforeEach(async () => {
-        await localDb.clearProducts()
-    })
-
-    it('should save a list of products', async () => {
-        const savedProducts = await localDb.saveProducts(products)
-        expect(savedProducts).toEqual(products)
-    })
-
-    it('should return all the products saved', async () => {
+    it('should save all the products', async () => {
         await localDb.saveProducts(products)
         const obtainedProducts = await localDb.getProducts()
         expect(obtainedProducts).toEqual(products)

@@ -44,7 +44,7 @@ module.exports = function buildReader({ mercadonaClient, db }) {
                 return products.concat(newProducts)
             }, [])
             
-            products = products.map(createProduct)
+            // products = products.map(createProduct)
 
             return products
         },
