@@ -11,18 +11,26 @@ describe('Mercadona reader', () => {
     })
 
     beforeEach(() => {
+        reader.clearCategoryIds()
         db.clearProducts()
     })
 
     it('gets all category ids', async () => {
-        await reader.extractProducts()
-        const categoryIds = reader.getCategoryIds()
-        expect(categoryIds).toHaveLength(5)
+        const categoryIds = await reader.getCategoryIds()
+        expect(categoryIds).toHaveLength(4)
     })
 
-    it('gets all mercadona products and save them', async () => {
-        await reader.extractProducts()
-        const products = await db.getProducts()
-        expect(products.length).not.toBe(0)
+    it('gets all products from category ids', async () => {
+        await reader.getCategoryIds()
+        const products = await reader.getProducts()
+        expect(products).toHaveLength(14)
+    })
+
+    it('saves all the products in db', async () => {
+        await reader.getCategoryIds()
+        await reader.getProducts()
+        await reader.saveProducts()
+        const savedProducts = await db.getProducts()
+        expect(savedProducts).toHaveLength(14)
     })
 })

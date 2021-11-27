@@ -3,9 +3,9 @@ const thirdLevelCategories = require('./thirdLevelCategories.json')
 
 module.exports = {
     getFirstLevelCategories() {
-        return firstLevelCategories
+        return Promise.resolve(firstLevelCategories)
     },
     getThirdLevelCategory(categoryId) {
-        return thirdLevelCategories[categoryId]
+        return Promise.resolve(thirdLevelCategories[categoryId])
     }
 }
