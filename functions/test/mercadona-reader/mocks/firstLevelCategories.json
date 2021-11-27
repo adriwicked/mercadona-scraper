@@ -1,0 +1,59 @@
+{
+    "next": null,
+    "count": 2,
+    "results": [
+        {
+            "id": 12,
+            "name": "Aceite, especias y salsas",
+            "order": 7,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 112,
+                    "name": "Aceite, vinagre y sal",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 115,
+                    "name": "Especias",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }                
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 18,
+            "name": "Agua y refrescos",
+            "order": 8,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 156,
+                    "name": "Agua",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 163,
+                    "name": "Isotónico y energético",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        }
+    ],
+    "previous": null
+}

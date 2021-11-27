@@ -1,15 +1,11 @@
-const fs = require('fs');
-
+const firstLevelCategories = require('./firstLevelCategories.json')
+const thirdLevelCategories = require('./thirdLevelCategories.json')
 
 module.exports = {
     getFirstLevelCategories() {
-        return JSON.parse(            
-            fs.readFileSync('test/mercadona-reader/mocks/categories.json')
-        )
+        return firstLevelCategories
     },
     getThirdLevelCategory(categoryId) {
-        return JSON.parse(
-            fs.readFileSync('test/mercadona-reader/mocks/thirdLevelCategories.json')
-        )
+        return thirdLevelCategories[categoryId]
     }
 }

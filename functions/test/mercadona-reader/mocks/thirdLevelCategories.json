@@ -1,1810 +1,738 @@
 {
-    "id": 112,
-    "name": "Aceite, vinagre y sal",
-    "order": 7,
-    "layout": 1,
-    "published": true,
-    "categories": [
-        {
-            "id": 420,
-            "name": "Aceite de oliva",
-            "order": 7,
-            "layout": 2,
-            "products": [
-                {
-                    "id": "4241",
-                    "slug": "aceite-oliva-04o-hacendado-garrafa",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Garrafa",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4241/aceite-oliva-04o-hacendado-garrafa",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/af5f40fa72d3697d7075c9549fcbc436.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+    "112": {
+        "id": 112,
+        "name": "Aceite, vinagre y sal",
+        "order": 7,
+        "layout": 1,
+        "published": true,
+        "categories": [
+            {
+                "id": 420,
+                "name": "Aceite de oliva",
+                "order": 7,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "4241",
+                        "slug": "aceite-oliva-04o-hacendado-garrafa",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Garrafa",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/4241/aceite-oliva-04o-hacendado-garrafa",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/af5f40fa72d3697d7075c9549fcbc436.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Aceite de oliva 0,4º Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 5.0,
+                            "bulk_price": "3.10",
+                            "unit_price": "15.50",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "3.100",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva 0,4º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 5.0,
-                        "bulk_price": "3.10",
-                        "unit_price": "15.50",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.100",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4240",
-                    "slug": "aceite-oliva-04o-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4240/aceite-oliva-04o-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/2c743e0d97f21942ee6bd90bfd3815c2.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                ],
+                "published": true,
+                "is_extended": false
+            },
+            {
+                "id": 421,
+                "name": "Aceite de girasol, semillas y maíz",
+                "order": 7,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "4047",
+                        "slug": "aceite-girasol-refinado-02o-hacendado-garrafa",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Garrafa",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/4047/aceite-girasol-refinado-02o-hacendado-garrafa",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/6f7bda10bef3e59d9e5abe798711ea87.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Aceite de girasol refinado 0,2º Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 5.0,
+                            "bulk_price": "1.39",
+                            "unit_price": "6.95",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "1.390",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva 0,4º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "3.20",
-                        "unit_price": "3.20",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.200",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4717",
-                    "slug": "aceite-oliva-virgen-extra-hacendado-garrafa",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Garrafa",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4717/aceite-oliva-virgen-extra-hacendado-garrafa",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/84dff1a1f7758de4eeec7379601d621a.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                ],
+                "published": true,
+                "is_extended": false
+            }
+        ],
+        "is_extended": false
+    },
+    "115": {
+        "id": 115,
+        "name": "Especias",
+        "order": 7,
+        "layout": 1,
+        "published": true,
+        "categories": [
+            {
+                "id": 425,
+                "name": "Hierbas",
+                "order": 7,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "34180",
+                        "slug": "oregano-hacendado-bote",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Bote",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/34180/oregano-hacendado-bote",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/6e686716fc8207126d4cdf76001154a0.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Orégano Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 0.018,
+                            "bulk_price": "31.11",
+                            "unit_price": "0.56",
+                            "approx_size": false,
+                            "size_format": "kg",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "3.112",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "100 g",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva virgen extra Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 3.0,
-                        "bulk_price": "3.67",
-                        "unit_price": "11.00",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.667",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4740",
-                    "slug": "aceite-oliva-virgen-extra-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
                     },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4740/aceite-oliva-virgen-extra-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/95e2ef19ef820cb3d5c627f4594848f6.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "19431",
+                        "slug": "hoja-laurel-hacendado-paquete",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Paquete",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/19431/hoja-laurel-hacendado-paquete",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/1edacb552ebd79faf18950060840a8d7.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Hoja de laurel Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 0.012,
+                            "bulk_price": "55.00",
+                            "unit_price": "0.66",
+                            "approx_size": false,
+                            "size_format": "kg",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "5.500",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "100 g",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva virgen extra Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "3.95",
-                        "unit_price": "3.95",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.950",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4706",
-                    "slug": "aceite-oliva-virgen-extra-hacendado-gran-seleccion-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
+                ],
+                "published": true,
+                "is_extended": false
+            },
+            {
+                "id": 840,
+                "name": "Colorante y pimentón",
+                "order": 7,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "34182",
+                        "slug": "colorante-alimentario-hacendado-bote",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Bote",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/34182/colorante-alimentario-hacendado-bote",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/5295e2d5835d00be215aaa595f54e5ef.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Colorante alimentario Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 0.085,
+                            "bulk_price": "6.94",
+                            "unit_price": "0.59",
+                            "approx_size": false,
+                            "size_format": "kg",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "6.942",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "kg",
+                            "increment_bunch_amount": 1.0
+                        }
                     },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4706/aceite-oliva-virgen-extra-hacendado-gran-seleccion-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/c3e8846a55133907859ddcbb2c0fbe67.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "34108",
+                        "slug": "colorante-alimentario-hacendado-caja",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Caja",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/34108/colorante-alimentario-hacendado-caja",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/40f64c4a6de17cfbaa255cb98e38e35d.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 12,
+                                "name": "Aceite, especias y salsas",
+                                "level": 0,
+                                "order": 7
+                            }
+                        ],
+                        "display_name": "Colorante alimentario Hacendado",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": "sobres",
+                            "unit_size": 0.035,
+                            "bulk_price": "28.57",
+                            "unit_price": "1.00",
+                            "approx_size": false,
+                            "size_format": "kg",
+                            "total_units": 25,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "2.858",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "100 g",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva virgen extra Hacendado Gran Selección",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.75,
-                        "bulk_price": "5.47",
-                        "unit_price": "4.10",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "5.467",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4641",
-                    "slug": "aceite-oliva-1o-hacendado-garrafa",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
+                ],
+                "published": true,
+                "is_extended": false
+            }
+        ],
+        "is_extended": false
+    },
+    "156": {
+        "id": 156,
+        "name": "Agua",
+        "order": 8,
+        "layout": 1,
+        "published": true,
+        "categories": [
+            {
+                "id": 525,
+                "name": "Agua sin gas",
+                "order": 8,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "27314",
+                        "slug": "agua-mineral-grande-bezoya-mineralizacion-muy-debil-pack-6",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": true,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Pack-6",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/27314/agua-mineral-grande-bezoya-mineralizacion-muy-debil-pack-6",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/0dbaa0c1fc1786e9623c27b33dd0f246.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Agua mineral grande Bezoya",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": true,
+                            "pack_size": 1.5,
+                            "unit_name": "botellas",
+                            "unit_size": 9.0,
+                            "bulk_price": "0.41",
+                            "unit_price": "3.66",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": 6,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "0.407",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
+                        }
                     },
-                    "packaging": "Garrafa",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4641/aceite-oliva-1o-hacendado-garrafa",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/761385e33fbbfe820a79f0a90321867f.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "27230",
+                        "slug": "agua-mineral-grande-bezoya-mineralizacion-muy-debil-botella",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": true,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Botella",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/27230/agua-mineral-grande-bezoya-mineralizacion-muy-debil-botella",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/b96566fc865d6a0e88a819ffdd080c92.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Agua mineral grande Bezoya",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 1.5,
+                            "bulk_price": "0.41",
+                            "unit_price": "0.61",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "0.407",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva 1º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 5.0,
-                        "bulk_price": "3.10",
-                        "unit_price": "15.50",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.100",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4640",
-                    "slug": "aceite-oliva-1o-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
+                ],
+                "published": true,
+                "is_extended": false
+            },
+            {
+                "id": 528,
+                "name": "Agua con gas",
+                "order": 8,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "27213",
+                        "slug": "agua-mineral-con-gas-grande-vichy-catalan-botella",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": true,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Botella",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/27213/agua-mineral-con-gas-grande-vichy-catalan-botella",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/1f845a4c8fd265543d6e446b1f3643d7.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Agua mineral con gas grande Vichy Catalan",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 1.0,
+                            "bulk_price": "1.18",
+                            "unit_price": "1.18",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "1.180",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
+                        }
                     },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4640/aceite-oliva-1o-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/198589245f81413622617b60c0b612c1.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "28185",
+                        "slug": "agua-mineral-con-gas-pequena-vichy-catalan-pack-6",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": true,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Pack-6",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/28185/agua-mineral-con-gas-pequena-vichy-catalan-pack-6",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/202b40a68da147917699c1b1e1ab2fd7.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Agua mineral con gas pequeña Vichy Catalan",
+                        "price_instructions": {
+                            "iva": 10,
+                            "is_new": false,
+                            "is_pack": true,
+                            "pack_size": 0.25,
+                            "unit_name": "botellas",
+                            "unit_size": 1.5,
+                            "bulk_price": "3.33",
+                            "unit_price": "4.99",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": 6,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "3.327",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva 1º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "3.20",
-                        "unit_price": "3.20",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.200",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4711",
-                    "slug": "aceite-oliva-virgen-hacendado-garrafa",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
+                ],
+                "published": true,
+                "is_extended": false
+            }
+        ],
+        "is_extended": false
+    },
+    "163": {
+        "id": 163,
+        "name": "Isotónico y energético",
+        "order": 8,
+        "layout": 1,
+        "published": true,
+        "categories": [
+            {
+                "id": 548,
+                "name": "Isotónico",
+                "order": 8,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "29608",
+                        "slug": "bebida-isotonica-limon-aquarius-botella",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Botella",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/29608/bebida-isotonica-limon-aquarius-botella",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/947bf321a4eda8d5bc19a2fce8330ea2.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Bebida isotónica limón Aquarius",
+                        "price_instructions": {
+                            "iva": 21,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 1.5,
+                            "bulk_price": "1.03",
+                            "unit_price": "1.55",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "1.034",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
+                        }
                     },
-                    "packaging": "Garrafa",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4711/aceite-oliva-virgen-hacendado-garrafa",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/e58a263f9514576e38a96724b3104f9b.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "29605",
+                        "slug": "bebida-isotonica-limon-aquarius-pack-8",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Pack-8",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/29605/bebida-isotonica-limon-aquarius-pack-8",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/468147c279c52296d884f32766141769.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Bebida isotónica limón Aquarius",
+                        "price_instructions": {
+                            "iva": 21,
+                            "is_new": false,
+                            "is_pack": true,
+                            "pack_size": 0.33,
+                            "unit_name": "latas",
+                            "unit_size": 2.64,
+                            "bulk_price": "2.24",
+                            "unit_price": "5.92",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": 8,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "2.243",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva virgen Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 3.0,
-                        "bulk_price": "3.33",
-                        "unit_price": "10.00",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.334",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4749",
-                    "slug": "aceite-oliva-virgen-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
+                ],
+                "published": true,
+                "is_extended": false
+            },
+            {
+                "id": 540,
+                "name": "Energético",
+                "order": 8,
+                "layout": 2,
+                "products": [
+                    {
+                        "id": "27944",
+                        "slug": "bebida-energetica-light-hacendado-lata",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Lata",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/27944/bebida-energetica-light-hacendado-lata",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/472309579c0dca0640410554d49e4ed7.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Bebida energética light Hacendado",
+                        "price_instructions": {
+                            "iva": 21,
+                            "is_new": false,
+                            "is_pack": false,
+                            "pack_size": null,
+                            "unit_name": null,
+                            "unit_size": 0.25,
+                            "bulk_price": "1.56",
+                            "unit_price": "0.39",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": null,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "1.560",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
+                        }
                     },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4749/aceite-oliva-virgen-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/757bfa26b0cb4a0e76cebf3622ef348a.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
+                    {
+                        "id": "28670",
+                        "slug": "bebida-energetica-energy-ultra-zero-monster-pack-4",
+                        "limit": 999,
+                        "badges": {
+                            "is_water": false,
+                            "requires_age_check": false
+                        },
+                        "packaging": "Pack-4",
+                        "published": true,
+                        "share_url": "https://tienda.mercadona.es/product/28670/bebida-energetica-energy-ultra-zero-monster-pack-4",
+                        "thumbnail": "https://prod-mercadona.imgix.net/images/bea75ee490b67631e75d31029e44accb.jpg?fit=crop&h=300&w=300",
+                        "categories": [
+                            {
+                                "id": 18,
+                                "name": "Agua y refrescos",
+                                "level": 0,
+                                "order": 8
+                            }
+                        ],
+                        "display_name": "Bebida energética Energy Ultra zero Monster",
+                        "price_instructions": {
+                            "iva": 21,
+                            "is_new": false,
+                            "is_pack": true,
+                            "pack_size": 0.5,
+                            "unit_name": "latas",
+                            "unit_size": 2.0,
+                            "bulk_price": "2.20",
+                            "unit_price": "4.40",
+                            "approx_size": false,
+                            "size_format": "l",
+                            "total_units": 4,
+                            "unit_selector": true,
+                            "bunch_selector": false,
+                            "drained_weight": null,
+                            "selling_method": 0,
+                            "price_decreased": false,
+                            "reference_price": "2.200",
+                            "min_bunch_amount": 1.0,
+                            "reference_format": "L",
+                            "increment_bunch_amount": 1.0
                         }
-                    ],
-                    "display_name": "Aceite de oliva virgen Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "3.50",
-                        "unit_price": "3.50",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.500",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
                     }
-                },
-                {
-                    "id": "4718",
-                    "slug": "aceite-oliva-virgen-extra-hacendado-spray",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Spray",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4718/aceite-oliva-virgen-extra-hacendado-spray",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/db81ecc45d41a42e856c83bdc908640c.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de oliva virgen extra Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.2,
-                        "bulk_price": "10.00",
-                        "unit_price": "2.00",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "10.000",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4850",
-                    "slug": "aceite-oliva-virgen-extra-casa-juncal-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4850/aceite-oliva-virgen-extra-casa-juncal-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/ecabac485cdbf5d0c8351eab26804e9e.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de oliva virgen extra Casa Juncal",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.5,
-                        "bulk_price": "7.90",
-                        "unit_price": "3.95",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "7.900",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                }
-            ],
-            "published": true,
-            "is_extended": false
-        },
-        {
-            "id": 421,
-            "name": "Aceite de girasol, semillas y maíz",
-            "order": 7,
-            "layout": 2,
-            "products": [
-                {
-                    "id": "4047",
-                    "slug": "aceite-girasol-refinado-02o-hacendado-garrafa",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Garrafa",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4047/aceite-girasol-refinado-02o-hacendado-garrafa",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/6f7bda10bef3e59d9e5abe798711ea87.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de girasol refinado 0,2º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 5.0,
-                        "bulk_price": "1.39",
-                        "unit_price": "6.95",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "1.390",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4046",
-                    "slug": "aceite-girasol-refinado-02o-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4046/aceite-girasol-refinado-02o-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/ea6dde0052a7744ca258255c4938964e.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de girasol refinado 0,2º Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "1.45",
-                        "unit_price": "1.45",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "1.450",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4721",
-                    "slug": "aceite-aguacate-ethnos-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4721/aceite-aguacate-ethnos-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/dea45321c2646e6e01a12847f1b2ab62.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de aguacate Ethnos",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": 0.0,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "20.00",
-                        "unit_price": "5.00",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "20.000",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4193",
-                    "slug": "aceite-coco-virgen-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4193/aceite-coco-virgen-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/4b73d0063a13ed91219d84e7dd70d22d.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de coco virgen Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.45,
-                        "bulk_price": "10.00",
-                        "unit_price": "4.50",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "10.000",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                }
-            ],
-            "published": true,
-            "is_extended": false
-        },
-        {
-            "id": 422,
-            "name": "Vinagre y otros aderezos",
-            "order": 7,
-            "layout": 2,
-            "products": [
-                {
-                    "id": "4940",
-                    "slug": "vinagre-vino-blanco-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4940/vinagre-vino-blanco-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/800b96661c0001f45cebc3ee12a4709a.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Vinagre de vino blanco Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.47",
-                        "unit_price": "0.47",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.470",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4954",
-                    "slug": "vinagre-balsamico-modena-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4954/vinagre-balsamico-modena-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/6e6409e684f3c6c7834554ed3933b9a2.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Vinagre balsámico de Módena Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "4.60",
-                        "unit_price": "1.15",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "4.600",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4957",
-                    "slug": "vinagre-manzana-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4957/vinagre-manzana-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/98d5a34a0d30798bbdc520993f63e542.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Vinagre de manzana Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.62",
-                        "unit_price": "0.62",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.620",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4903",
-                    "slug": "limon-exprimido-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4903/limon-exprimido-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/802d61bae30f424fa8315698f9f245db.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Limón exprimido Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.28,
-                        "bulk_price": "3.14",
-                        "unit_price": "0.88",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "3.143",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4908",
-                    "slug": "crema-vinagre-balsamico-modena-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4908/crema-vinagre-balsamico-modena-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/d23cb7535fe0a9e9e053713faff31b93.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Crema de vinagre balsámico de Módena Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "6.40",
-                        "unit_price": "1.60",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "6.400",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "13609",
-                    "slug": "vinagre-jerez-reserva-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/13609/vinagre-jerez-reserva-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/bfa0c4aabf80adf4cd9a390df6aa7184.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Vinagre de Jerez reserva Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "4.80",
-                        "unit_price": "1.20",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "4.800",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "66905",
-                    "slug": "bebida-aromatizada-base-vino-cocinar-abuela-carola-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": true
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/66905/bebida-aromatizada-base-vino-cocinar-abuela-carola-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/26999f3c12b8c4fccdc79f2ebabf3228.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Bebida aromatizada a base de vino para cocinar Abuela Carola",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.75,
-                        "bulk_price": "2.53",
-                        "unit_price": "1.90",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "2.534",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "15843",
-                    "slug": "vinagre-vino-tinto-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/15843/vinagre-vino-tinto-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/fb5cf74e1fa94ca426ccb18936b31dc7.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Vinagre de vino tinto Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.57",
-                        "unit_price": "0.57",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.570",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4905",
-                    "slug": "reduccion-vinagre-pedro-ximenez-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4905/reduccion-vinagre-pedro-ximenez-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/0f2f3566dedc310f8330782da97cff7b.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Reducción de vinagre Pedro Ximénez Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.3,
-                        "bulk_price": "6.67",
-                        "unit_price": "2.00",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "6.667",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4962",
-                    "slug": "aceite-oliva-vinagre-sal-merry-5-monodosis-10-ml-aceite-oliva-virgen-extra-5-monodosis-10-ml-vinagre-jerez-5-monodosis-1-gr-sal-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4962/aceite-oliva-vinagre-sal-merry-5-monodosis-10-ml-aceite-oliva-virgen-extra-5-monodosis-10-ml-vinagre-jerez-5-monodosis-1-gr-sal-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/76415f87b3e97c28177c7d42b0beac62.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Aceite de oliva, vinagre y sal Merry",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": true,
-                        "pack_size": 0.01,
-                        "unit_name": "monodosis",
-                        "unit_size": 0.1,
-                        "bulk_price": "13.50",
-                        "unit_price": "1.35",
-                        "approx_size": false,
-                        "size_format": "l",
-                        "total_units": 15,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "13.500",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "L",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "4965",
-                    "slug": "crema-vinagre-balsamico-manzana-hacendado-botella",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Botella",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/4965/crema-vinagre-balsamico-manzana-hacendado-botella",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/0746c9997630504c31cf7466af93e815.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Crema de vinagre balsámico de manzana Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "8.60",
-                        "unit_price": "2.15",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "8.600",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                }
-            ],
-            "published": true,
-            "is_extended": false
-        },
-        {
-            "id": 424,
-            "name": "Sal y bicarbonato",
-            "order": 7,
-            "layout": 2,
-            "products": [
-                {
-                    "id": "19731",
-                    "slug": "sal-fina-hacendado-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19731/sal-fina-hacendado-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/7873137d1afe44deeb4fff285430438f.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal fina Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.22",
-                        "unit_price": "0.22",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.220",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19715",
-                    "slug": "sal-fina-mesa-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19715/sal-fina-mesa-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/305caeccba65d94cd61193fcbcb15ea3.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal fina de mesa Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "1.52",
-                        "unit_price": "0.38",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "1.520",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19732",
-                    "slug": "sal-yodada-fina-hacendado-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19732/sal-yodada-fina-hacendado-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/5de89d9ce05abde6bc94f186d3e735b5.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal yodada fina Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.22",
-                        "unit_price": "0.22",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.220",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19733",
-                    "slug": "sal-gruesa-hacendado-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19733/sal-gruesa-hacendado-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/a81a22fc505bece2f093574d3486204a.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal gruesa Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "0.20",
-                        "unit_price": "0.20",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.200",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "29007",
-                    "slug": "bicarbonato-sodico-hacendado-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/29007/bicarbonato-sodico-hacendado-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/ed1ebfa8c76af67dc21a385de31fc778.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Bicarbonato sódico Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 1.0,
-                        "bulk_price": "1.19",
-                        "unit_price": "1.19",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "1.190",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "29006",
-                    "slug": "bicarbonato-sodico-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/29006/bicarbonato-sodico-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/f9ae0f4b0970e8356b7834aec85514f6.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Bicarbonato sódico Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.3,
-                        "bulk_price": "1.50",
-                        "unit_price": "0.45",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "1.500",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19740",
-                    "slug": "sal-marina-escamas-polasal-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19740/sal-marina-escamas-polasal-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/36bc3658a807997961ec5fda23dd948e.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal marina en escamas Polasal",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.125,
-                        "bulk_price": "14.80",
-                        "unit_price": "1.85",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "14.800",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19734",
-                    "slug": "sal-gruesa-hornear-hacendado-paquete",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Paquete",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19734/sal-gruesa-hornear-hacendado-paquete",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/07c7c790c661903662af0cd70e1f05b2.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal gruesa para hornear Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 2.0,
-                        "bulk_price": "0.36",
-                        "unit_price": "0.71",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "0.355",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "34130",
-                    "slug": "sal-ajo-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/34130/sal-ajo-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/dc0ac8fb4a4c2cad7a303531902975c2.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal de ajo Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.13,
-                        "bulk_price": "7.69",
-                        "unit_price": "1.00",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "7.693",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "29016",
-                    "slug": "sal-frutas-sabor-limon-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/29016/sal-frutas-sabor-limon-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/5ba4d62436d14a7cc28378beb8629a46.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal de frutas sabor limón Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "6.36",
-                        "unit_price": "1.59",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "6.360",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19713",
-                    "slug": "sal-60-menos-sodio-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19713/sal-60-menos-sodio-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/94a6e7709ae88d33abaf61dc7bfaec2a.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal 60% menos de sodio Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "4.80",
-                        "unit_price": "1.20",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "4.800",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "34187",
-                    "slug": "molinillo-sal-marina-con-hierbas-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/34187/molinillo-sal-marina-con-hierbas-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/8838278924e621026bba5c109c54beaf.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Molinillo sal marina con hierbas Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.11,
-                        "bulk_price": "14.55",
-                        "unit_price": "1.60",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "14.546",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19726",
-                    "slug": "preparado-salmon-ahumado-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19726/preparado-salmon-ahumado-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/2d9a1b6261e7d82f5ebc6d0c43933732.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Preparado para salmón ahumado Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.75,
-                        "bulk_price": "2.67",
-                        "unit_price": "2.00",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "2.667",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                },
-                {
-                    "id": "19701",
-                    "slug": "sal-rosa-himalaya-hacendado-bote",
-                    "limit": 999,
-                    "badges": {
-                        "is_water": false,
-                        "requires_age_check": false
-                    },
-                    "packaging": "Bote",
-                    "published": true,
-                    "share_url": "https://tienda.mercadona.es/product/19701/sal-rosa-himalaya-hacendado-bote",
-                    "thumbnail": "https://prod-mercadona.imgix.net/images/991e60bbdb74fba917c9e25a05d2ab78.jpg?fit=crop&h=300&w=300",
-                    "categories": [
-                        {
-                            "id": 12,
-                            "name": "Aceite, especias y salsas",
-                            "level": 0,
-                            "order": 7
-                        }
-                    ],
-                    "display_name": "Sal rosa del Himalaya Hacendado",
-                    "price_instructions": {
-                        "iva": 10,
-                        "is_new": false,
-                        "is_pack": false,
-                        "pack_size": null,
-                        "unit_name": null,
-                        "unit_size": 0.25,
-                        "bulk_price": "6.80",
-                        "unit_price": "1.70",
-                        "approx_size": false,
-                        "size_format": "kg",
-                        "total_units": null,
-                        "unit_selector": true,
-                        "bunch_selector": false,
-                        "drained_weight": null,
-                        "selling_method": 0,
-                        "price_decreased": false,
-                        "reference_price": "6.800",
-                        "min_bunch_amount": 1.0,
-                        "reference_format": "kg",
-                        "increment_bunch_amount": 1.0
-                    }
-                }
-            ],
-            "published": true,
-            "is_extended": false
-        }
-    ],
-    "is_extended": false
+                ],
+                "published": true,
+                "is_extended": false
+            }
+        ],
+        "is_extended": false
+    }
 }
