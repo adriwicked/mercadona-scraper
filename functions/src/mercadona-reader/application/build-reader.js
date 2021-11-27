@@ -1,8 +1,8 @@
-const { saveProducts } = require("../infrastructure/data-access/local-db")
+const createProduct = require('../domain/product')
 
 module.exports = function buildReader({ mercadonaClient, db }) {
     let categoryIds = []
-    let products = []
+    let products = []    
 
     function extractProducts(secondLevelCategory) {
         return secondLevelCategory.categories.reduce((products, cat) => {
@@ -44,6 +44,8 @@ module.exports = function buildReader({ mercadonaClient, db }) {
                 return products.concat(newProducts)
             }, [])
             
+            products = products.map(createProduct)
+
             return products
         },
         async saveProducts() {

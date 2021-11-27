@@ -26,6 +26,12 @@ describe('Mercadona reader', () => {
         expect(products).toHaveLength(14)
     })
 
+    it('creates product entities from products extracted', async () => {
+        await reader.getCategoryIds()
+        const products = await reader.getProducts()
+        expect(products[0]).toHaveProperty('getId')
+    })
+
     it('saves all the products in db', async () => {
         await reader.getCategoryIds()
         await reader.getProducts()
